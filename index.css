@@ -1,3 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-header {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7333333333);
+  color: white;
+  gap: 20px;
+  box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.2);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgba(124, 68, 255, 0.7333333333);
+}
+
 #map {
-  height: 180px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.2);
+}
+
+.info-position {
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.304);
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 200px;
+  height: 150px;
+  gap: 10px;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.leaflet-top.leaflet-right {
+  top: 525px;
+  position: fixed;
+}
+
+.leaflet-routing-alt {
+  background-color: rgba(123, 169, 255, 0.713);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 11px 11px 22px rgba(255, 255, 255, 0.2);
+  gap: 10px;
+  padding: 10px;
 }/*# sourceMappingURL=index.css.map */
